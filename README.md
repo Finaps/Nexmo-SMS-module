@@ -22,4 +22,5 @@ Configuration
 5. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs or leading zeros.  An example of how a number should be formatted is shown in the screenshots
 
 Known bugs 
+
 None

@@ -1,20 +1,6 @@
 # Nexmo-SMS-module
 This is a module for Mendix which uses the Nexmo SMS service for sending text messages
 
-
-Nexmo SMS widget
-In: Add-Ons -Modules
-
-(0)
-Vote
-1
-Overview
-Documentation
-Statistics
-All versions
-Description
-This package includes the Java files needed for Nexmo SMS integration, and also a ready to use java action for sending the SMS
-
 Dependencies 
 Made in modeler 5.16.1, but the java and Jar file should be compatible with all versions of Mendix
 Dependancy on the nexmo-sdk.jar that is included in the package, but otherwise can be downloaded from the nexmo website

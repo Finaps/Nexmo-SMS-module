@@ -8,6 +8,7 @@ Installation
 Just call the java action for sending a message. The module itself can be deleted once you have moved the java-action to a logic place in your existing application
 
 Configuration
+
 1. Go to https://dashboard.nexmo.com/sign-up to sign up
 
 2. Activate account and log in

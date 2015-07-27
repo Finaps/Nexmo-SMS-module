@@ -1,13 +1,13 @@
 # Nexmo-SMS-module
 This is a module for Mendix which uses the Nexmo SMS service for sending text messages
 
-Dependencies 
+# Dependencies 
 Made in modeler 5.16.1, but the java and Jar file should be compatible with all versions of Mendix
 Dependancy on the nexmo-sdk.jar that is included in the package, but otherwise can be downloaded from the nexmo website
 Installation
 Just call the java action for sending a message. The module itself can be deleted once you have moved the java-action to a logic place in your existing application
 
-Configuration
+# Configuration
 
 1. Go to https://dashboard.nexmo.com/sign-up to sign up
 
@@ -19,8 +19,14 @@ Configuration
 
 4. In the Java action use these keys for sending your sms message
 
-5. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs or leading zeros.  An example of how a number should be formatted is shown in the screenshots
+5. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs.  The mobile number should be in international format, and one recipient per request. Ex: to=447525856424 or to=00447525856424 when sending to UK.
 
-Known bugs 
+# Pricing
+
+Pricing per message in NL is €0.0490 and for UK: €0.0290
+With registering Nexmo you recieve €2 euros to test with. Payment is easy with paypal or creditcard.
+For more infomation go to https://www.nexmo.com/pricing/
+
+# Known bugs 
 
 None

@@ -21,6 +21,15 @@ Just call the java action for sending a message. The module itself can be delete
 
 5. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs.  The mobile number should be in international format, and one recipient per request. Ex: to=447525856424 or to=00447525856424 when sending to UK.
 
+# Use
+
+The Java action has the following inputs:
++ API Key : the key you can find in your nexmo account
++ API Secret: the secret you can find in your nexmo account
++ FromText: The name of the message sender
++ PhoneNr: The phone number in international format
++ Text: The message that has to be sent
+
 # Pricing
 
 Pricing per message in NL is €0.0490 and for UK: €0.0290

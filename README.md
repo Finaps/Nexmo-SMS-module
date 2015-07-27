@@ -13,13 +13,13 @@ Just call the java action for sending a message. The module itself can be delete
 
 2. Activate account and log in
 
-3a. At the top right you see a tab API settings. Click on edit to see all the info you need to set this module up (your API Key and API secret). A screenshot of the page is included in the screenshots with this widget
+3. At the top right you see a tab API settings. Click on edit to see all the info you need to set this module up (your API Key and API secret). A screenshot of the page is included in the screenshots with this widget
 
-3b. If you are using a test account you need to add to which mobile numbers sms messages are allouwed to be sent. This is done on API settings page with the Test Phone Numbers fields.
+4. If you are using a test account you need to add to which mobile numbers sms messages are allouwed to be sent. This is done on API settings page with the Test Phone Numbers fields.
 
-4. In the Java action use these keys for sending your sms message
+5. In the Java action use these keys for sending your sms message
 
-5. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs.  The mobile number should be in international format, and one recipient per request. Ex: to=447525856424 or to=00447525856424 when sending to UK.
+6. Make sure you format your mobile number correctly, with the country code and without spaces or plus signs.  The mobile number should be in international format, and one recipient per request. Ex: to=447525856424 or to=00447525856424 when sending to UK.
 
 # Use
 

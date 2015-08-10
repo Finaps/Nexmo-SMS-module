@@ -36,6 +36,13 @@ Pricing per message in NL is €0.0490 and for UK: €0.0290
 With registering Nexmo you recieve €2 euros to test with. Payment is easy with paypal or creditcard.
 For more infomation go to https://www.nexmo.com/pricing/
 
+# Limitations
+Messages have a maximum length of 3200 characters in UTF-8 and URL encoded value. Ex: "Déjà vu" content would be "D%c3%a9j%c3%a0+vu"
+
+As a general rule in SMS the maximum length for sender string is:
+ + 11 characters maximum length for Alphanumeric Originators
+ + 15 digits maximum length for Numeric Originators
+
 # Known bugs 
 
 None
